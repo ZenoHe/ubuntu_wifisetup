@@ -1,0 +1,9 @@
+# 监听地址，同你想设置的网关地址
+listen-address=192.168.137.1
+# 无线网卡的设备名，同 hostapd.conf 保持一致
+interface=wlan0
+bind-interfaces
+# DHCP 分配  IP 的起止段和租约时间，这里是 12 小时
+dhcp-range=192.168.137.100, 192.168.137.200,12h
+# 推送给客户端的 DNS 服务器
+dhcp-option=6,8.8.8.8,8.8.4.4
