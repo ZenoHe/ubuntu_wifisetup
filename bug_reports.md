@@ -1,0 +1,1 @@
+This scirpt doesn't work in ubuntu14.04, when I google for the issue, it seems that it is the new version of hostapd makes the bug. To solve this problem, you can go to [here](http://www.webupd8.org/2013/06/how-to-set-up-wireless-hotspot-access.html) for help. 
